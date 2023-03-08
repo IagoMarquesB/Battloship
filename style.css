@@ -1,0 +1,92 @@
+body
+{
+    border: 5px double #1C6EA4;
+    display: flex; flex-direction: column; justify-content: center;
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    color: #0F1476;
+}
+
+h2{
+    position: relative;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: center;
+    color:#2B32B2;
+	margin-bottom:1em;
+}
+
+#instrucao{
+    position: relative;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-align: center;
+    color:#2B32B2;
+	margin-bottom:1em;
+}
+
+p{
+    position: absolute;
+    margin: 15px
+}
+
+#tabuleiro {
+	position:relative;
+	margin:0 auto 2em auto;
+	width:500px;
+	height:500px;
+}
+
+#tabuleiro div
+{
+    display: flex;
+    /* flex-direction: row, column;
+    flex-wrap: wrap; */
+	position:absolute;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+	background: #f6f8f9;            /* Old browsers */
+	border: 1px solid #ddd;
+	width:50px;
+	height:50px;
+}
+.numbers
+{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    margin-left: -30px;
+    margin-top: 20px;
+
+}
+.Container
+{
+    display: flex;
+    /* flex-direction:column; */
+    /* flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+
+.Letter
+{
+    display: inline;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: -545px;
+    justify-content: space-between;
+    margin: 18px;
+    
+    
+}
+/* #Campo */
+/* {
+
+
+} */
