@@ -57,11 +57,11 @@ var gabarito =                                              // Cria uma matriz "
 
  function atirar(e){
     
-    if (pontos == 10){
+        if (pontos == 10){
         
-        alert("Você já destruiu todos os navios inimigos. O jogo acabou!");
-        return; 
-    }
+            alert("Você já destruiu todos os navios inimigos. O jogo acabou!");
+            return; 
+        }
     else if(torpedos<=0)
     {
         alert("Você gastou todos os seus tiros! você perdeu")
